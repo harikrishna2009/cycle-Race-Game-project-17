@@ -30,7 +30,7 @@ function preload(){
   oppRed1Img = loadAnimation("images/opponent7.png","images/opponent8.png");
   oppRed2Img = loadAnimation("images/opponent9.png");
   
-  cycleBell = loadSound("sound/bell.mp3");
+ // cycleBell = loadSound("sound/bell.mp3");
   gameOverImg = loadImage("images/gameOver.png");
 }
 
@@ -91,9 +91,9 @@ function draw() {
   }
   
     //code to play cycle bell sound
-  if(keyDown("space")) {
-    cycleBell.play();
-  }
+ // if(keyDown("space")) {
+  //  cycleBell.play();
+ // }
   
   //creating continous opponent players
   var select_oppPlayer = Math.round(random(1,3));
